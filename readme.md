@@ -1,6 +1,3 @@
-# これはテストです
-
-
 # Smart Eye-Care System
 
 このプロジェクトは、超音波センサーでユーザーの着席を検知し、20分（設定可能）の作業ごとに20秒の休憩を促す「スマート眼精疲労防止ガジェット」です。Arduino (UNOR4 WiFi) と Python (Windowsゲートウェイ) が連携して動作します。
@@ -9,7 +6,7 @@
 
 ```mermaid
 graph TD
-    A[Arduino] -- "① 20分経過 (UDP: TIME_UP)" --> B[Python Gateway]
+    A[Arduino] -- "① 20分経過 (UDP: TIME_UP)" --> B[Python]
     B -- "② Windows通知を表示" --> C[ユーザー]
     C -- "③ 20秒休憩" --> C
     C -- "④ PCでEnterキー入力" --> B
