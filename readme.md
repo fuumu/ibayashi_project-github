@@ -54,3 +54,5 @@ graph TD
 4.  20秒経過後、PC側でEnterキーを押すと、再び次のサイクルが始まります。
 
 [アイケアスプレッドシート　ログ](https://docs.google.com/spreadsheets/d/1GVeTNaiIqg9THnKGMKAm8ZsvyVecBAWqQ8LLO331-pg/edit?usp=sharing)
+
+![回路図（6/15更新）](image.png)
